@@ -6,7 +6,6 @@
 	<persistence-unit name="aulaPU">
 		<provider>org.hibernate.ejb.HibernatePersistence</provider>
 		<class>entidade.Estado</class>
-		<class>entidade.Marca</class>
 		<class>entidade.Cidade</class>
 
 		<properties>

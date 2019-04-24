@@ -9,7 +9,6 @@ public class Fabrica {
 	public static EntityManagerFactory get(){
 		if (fabrica == null) {
 			fabrica = Persistence.createEntityManagerFactory("aulaPU");
-		return fabrica;
 		}
 		return fabrica;
 	}
